@@ -14,5 +14,7 @@ Instructions:
 
 Edit .env file and update CONTROLLER_ACCESS_KEY to your access key, by default the controller host is: master-saas-controller.e2e.appd-test.com, you can accordingly if you wish to.
 To run the application, run 
+
 docker-compose build
+
 docker-compose up
