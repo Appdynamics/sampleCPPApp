@@ -1,0 +1,12 @@
+version: "3.3"
+services:
+  httpserver:
+    build: './httpserver'
+    ports:
+      - "8000:8000"
+    environment:
+      - CONTROLLER_ACCESS_KEY
+  upstream:
+    build: './upstream'
+    environment:
+      - CONTROLLER_ACCESS_KEY
