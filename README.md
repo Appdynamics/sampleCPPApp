@@ -18,3 +18,5 @@ To run the application, run
 docker-compose build
 
 docker-compose up
+
+To change the sdk version, download the exact version you need and place the tar file under the respective project directory and update the Dockerfile accordingly
